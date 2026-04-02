@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LankaDrive Auto Sales | Vehicle Details</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container header-wrap">
+      <div class="brand"><div class="logo">LD</div><h1>LankaDrive Auto Sales</h1></div>
+      <nav><ul><li><a href="../index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a class="active" href="vehicles.html">Vehicles</a></li><li><a href="services.html">Services</a></li><li><a href="reviews.html">Reviews</a></li><li><a href="contact.html">Contact Us</a></li></ul></nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Vehicle Details & Inquiries</h2>
+      <p>Select a vehicle below and submit your inquiry from the same page.</p>
+      <div class="grid grid-3">
+        <article id="toyota-corolla" class="card"><img src="../images/toyota-corolla.jpg" alt="Toyota Corolla"><h3>Toyota Corolla</h3><p><strong>Year:</strong> 2021</p><p><strong>Mileage:</strong> 28,000 km</p><p><strong>Transmission:</strong> Automatic</p><p><strong>Fuel:</strong> Petrol</p><p class="badge">LKR 12,800,000</p></article>
+        <article id="honda-civic" class="card"><img src="../images/honda-civic.jpg" alt="Honda Civic"><h3>Honda Civic</h3><p><strong>Year:</strong> 2019</p><p><strong>Mileage:</strong> 41,000 km</p><p><strong>Transmission:</strong> Automatic</p><p><strong>Fuel:</strong> Petrol</p><p class="badge">LKR 14,200,000</p></article>
+        <article id="suzuki-wagonr" class="card"><img src="../images/suzuki-wagonr.jpg" alt="Suzuki Wagon R"><h3>Suzuki Wagon R</h3><p><strong>Year:</strong> 2018</p><p><strong>Mileage:</strong> 52,000 km</p><p><strong>Transmission:</strong> CVT</p><p><strong>Fuel:</strong> Petrol</p><p class="badge">LKR 8,900,000</p></article>
+        <article id="nissan-leaf" class="card"><img src="../images/nissan-leaf.jpg" alt="Nissan Leaf"><h3>Nissan Leaf</h3><p><strong>Year:</strong> 2020</p><p><strong>Mileage:</strong> 33,000 km</p><p><strong>Transmission:</strong> Automatic</p><p><strong>Fuel:</strong> Electric</p><p class="badge">LKR 10,750,000</p></article>
+        <article id="mitsubishi-montero" class="card"><img src="../images/montero.jpg" alt="Mitsubishi Montero"><h3>Mitsubishi Montero</h3><p><strong>Year:</strong> 2017</p><p><strong>Mileage:</strong> 67,500 km</p><p><strong>Transmission:</strong> Automatic</p><p><strong>Fuel:</strong> Diesel</p><p class="badge">LKR 22,500,000</p></article>
+        <article id="bmw-320i" class="card"><img src="../images/bmw-320i.jpg" alt="BMW 320i"><h3>BMW 320i</h3><p><strong>Year:</strong> 2019</p><p><strong>Mileage:</strong> 36,000 km</p><p><strong>Transmission:</strong> Automatic</p><p><strong>Fuel:</strong> Petrol</p><p class="badge">LKR 25,900,000</p></article>
+        <article id="toyota-raize" class="card"><img src="../images/SUV.jpg" alt="Toyota Raize"><h3>Toyota Raize</h3><p><strong>Year:</strong> 2022</p><p><strong>Mileage:</strong> 18,000 km</p><p><strong>Transmission:</strong> Automatic</p><p><strong>Fuel:</strong> Petrol</p><p class="badge">LKR 13,900,000</p></article>
+        <article id="honda-vezzel" class="card"><img src="../images/HondaVezzel.webp" alt="Honda Vezzel"><h3>Honda Vezzel</h3><p><strong>Year:</strong> 2021</p><p><strong>Mileage:</strong> 24,000 km</p><p><strong>Transmission:</strong> Automatic</p><p><strong>Fuel:</strong> Hybrid</p><p class="badge">LKR 16,950,000</p></article>
+        <article id="daihatsu-mira" class="card"><img src="../images/wagonR.jpg" alt="Daihatsu Mira"><h3>Daihatsu Mira</h3><p><strong>Year:</strong> 2019</p><p><strong>Mileage:</strong> 34,000 km</p><p><strong>Transmission:</strong> Automatic</p><p><strong>Fuel:</strong> Petrol</p><p class="badge">LKR 7,250,000</p></article>
+      </div>
+    </section>
+
+    <section class="section card">
+      <h2>Inquiry Form</h2>
+      <p>Send your inquiry for a specific vehicle from this page.</p>
+      <form>
+        <label for="full-name">Full Name</label>
+        <input id="full-name" type="text" required>
+
+        <label for="email">Email Address</label>
+        <input id="email" type="email" required>
+
+        <label for="contact-number">Contact Number</label>
+        <input id="contact-number" type="tel" required>
+
+        <label for="vehicle">Vehicle Interested In</label>
+        <select id="vehicle">
+          <option>Toyota Corolla 2021</option>
+          <option>Honda Civic 2019</option>
+          <option>Suzuki Wagon R 2018</option>
+          <option>Nissan Leaf 2020</option>
+          <option>Mitsubishi Montero 2017</option>
+          <option>BMW 320i 2019</option>
+          <option>Toyota Raize 2022</option>
+          <option>Honda Vezzel 2021</option>
+          <option>Daihatsu Mira 2019</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="4"></textarea>
+
+        <button class="btn" type="submit">Submit Inquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <section><h4>Contact</h4><p>No. 45, Galle Road, Colombo 03, Sri Lanka</p><p>+94 11 234 5678 / +94 77 456 7890</p><p>sales@lankadrive.lk</p></section>
+      <section><h4>Follow Us</h4><div class="social"><a href="#">FB</a><a href="#">IG</a><a href="#">YT</a></div></section>
+      <section><h4>Newsletter</h4><form><label for="newsletter-vehicle-details">Email Address</label><input id="newsletter-vehicle-details" type="email" placeholder="yourname@email.com"><button class="btn" type="submit">Subscribe</button></form></section>
+    </div>
+  </footer>
+</body>
+</html>
