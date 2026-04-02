@@ -1,19 +1,19 @@
-Project image assets currently included in this folder:
-- banner.svg
-- featured-prius.svg
-- featured-vezel.svg
-- featured-xtrail.svg
-- gallery-sedan.svg
-- gallery-suv.svg
-- gallery-showroom.svg
-- showroom.svg
-- toyota-corolla.svg
-- honda-civic.svg
-- suzuki-wagonr.svg
-- nissan-leaf.svg
-- montero.svg
-- bmw-320i.svg
-- video-poster.svg
+Place your local image assets here using these filenames:
+- banner.jpg
+- featured-prius.jpg
+- featured-vezel.jpg
+- featured-xtrail.jpg
+- gallery-sedan.jpg
+- gallery-suv.jpg
+- gallery-showroom.jpg
+- showroom.jpg
+- toyota-corolla.jpg
+- honda-civic.jpg
+- suzuki-wagonr.jpg
+- nissan-leaf.jpg
+- montero.jpg
+- bmw-320i.jpg
+- video-poster.jpg
 
-Optional local video used by reviews page:
-- testimonial.mp4
+Optional media file used by reviews page:
+- testimonial.mp4 (if you want local video source)
